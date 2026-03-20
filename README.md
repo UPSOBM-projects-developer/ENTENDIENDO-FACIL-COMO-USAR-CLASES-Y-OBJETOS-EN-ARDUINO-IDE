@@ -3,7 +3,6 @@ en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando v
  * PROYECTO: CLASE POO (PROGRAMACIÓN ORIENTADA A OBJETOS)
  * DESARROLLADOR: UPSOBM_projects_developer
  * VERSIÓN: 1.0 (EDUCATIVA)
-
  */ 
 
    
