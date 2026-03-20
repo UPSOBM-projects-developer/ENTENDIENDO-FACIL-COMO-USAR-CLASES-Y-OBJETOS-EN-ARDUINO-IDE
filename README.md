@@ -1,5 +1,12 @@
 # ENTENDIENDO-FACIL-COMO-USAR-CLASES-Y-OBJETOS-EN-ARDUINO-IDE
-en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando void ,int,bool,etc.Para poder hacer nuestras propias librerias o simplificar codigo
+en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando void ,int,bool,etc.Para poder hacer nuestras propias librerias o simplificar codigo  
+ * PROYECTO: CLASE POO (PROGRAMACIÓN ORIENTADA A OBJETOS)
+ * DESARROLLADOR: UPSOBM_projects_developer
+ * VERSIÓN: 1.0 (EDUCATIVA)
+
+ */ 
+
+   
 un objeto o definicion es como un "bloque"que tiene todo el codigo que le pongas para que al ponerlo se ejecute  
   su estructura es la siguiente    :   
   void,int,bool,String,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
@@ -22,6 +29,8 @@ delay(1000);
 void loop(){
 saludar("hola,funciono");// el nombre del "bloque"+ ()vaciono si no definiste que tuviera entrada de valor
 // Y (y aqui escribes tu valor en este caso "hola,funciono")
+delay(1000);// para evitar que el chip se esfuerze mucho ya que si quitas esto no tiene descoaso y es malo
+//asi que es caso qe quitarlo por lo menos el chip tiene que descanzar 
 }
 ```
   una funcion class es como una "caja" donde puede guardar cosas en este caso bloques de codigo que usaremos en nuestro codigo ejemplo:   
@@ -41,7 +50,7 @@ digitalWrite(13,LOW);
 delay(tiempo);
 }
 };
-miled led // definimos que la "caja" existe
+miled led;// definimos que la "caja" existe
 void setup(){
 pinMode(13,OUTPUT);
 delay(1000);
