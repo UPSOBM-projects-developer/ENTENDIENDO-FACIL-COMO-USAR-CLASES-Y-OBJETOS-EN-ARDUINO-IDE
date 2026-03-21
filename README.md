@@ -9,7 +9,7 @@
 
    
 ## un objeto o definicion es como un "bloque"que tiene todo el codigo que le pongas para que al ponerlo se ejecute  
-  **su estructura es la siguiente :**   
+  # **su estructura es la siguiente :**   
   ## ```cpp void,int,bool,String```,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
   ## **entonces un ejemplo de la structura es** 
   ### ```cpp void``` "nombre de el "bloque""("varibles que puede escribir ejmplo (```cpp int``` numero)"){
@@ -34,7 +34,8 @@ delay(1000);// para evitar que el chip se esfuerze mucho ya que si quitas esto n
 //asi que es caso qe quitarlo por lo menos el chip tiene que descanzar 
 }
 ```
- ## una funcion class es como una "caja" donde puede guardar cosas en este caso bloques de codigo que usaremos en nuestro codigo **ejemplo: ** 
+ ## una funcion class es como una "caja" donde puede guardar cosas en este caso bloques de codigo que usaremos en nuestro codigo  
+ # **ejemplo: ** 
   ```cpp
 class miled{//definimos la "caja"
 private://cosas que no salen de la "caja" en este ejemplo nada
@@ -60,7 +61,7 @@ void loop(){
 led.parpadear(500);// llamamos a la "caja" led y con . le sacamos su bloque parpadear
 }
   ```
- ## ** su estructura es :**    
+ # ** su estructura es :**    
  
   ```cpp class``` "nombre de la "caja"temporal"{
 ```cpp private:``` // cosas que solo puede  funcionar aentro de la "caja"  
