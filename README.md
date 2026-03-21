@@ -1,5 +1,5 @@
 # ENTENDIENDO-FACIL-COMO-USAR-CLASES-Y-OBJETOS-EN-ARDUINO-IDE
-### en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando ```cpp void ,int,bool```,etc.Para poder hacer nuestras propias librerias o simplificar codigo    
+### en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando ```cpp void ,int,bool ```,etc.Para poder hacer nuestras propias librerias o simplificar codigo    
 
   
  ## * PROYECTO: CLASE POO (PROGRAMACIÓN ORIENTADA A OBJETOS)
