@@ -1,5 +1,7 @@
 # ENTENDIENDO-FACIL-COMO-USAR-CLASES-Y-OBJETOS-EN-ARDUINO-IDE
-en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando ```cpp void ,int,bool```,etc.Para poder hacer nuestras propias librerias o simplificar codigo  
+### en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando ```cpp void ,int,bool```,etc.Para poder hacer nuestras propias librerias o simplificar codigo    
+
+  
  ## * PROYECTO: CLASE POO (PROGRAMACIÓN ORIENTADA A OBJETOS)
  ## * DESARROLLADOR: UPSOBM_projects_developer
  ## * VERSIÓN: 1.0 (EDUCATIVA)
@@ -10,12 +12,12 @@ en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando `
   **su estructura es la siguiente :**   
   ## ```cpp void,int,bool,String```,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
   ## **entonces un ejemplo de la structura es** 
-  ```cpp void``` "nombre de el "bloque""("varibles que puede escribir ejmplo (```cpp int``` numero)"){
+  ### ```cpp void``` "nombre de el "bloque""("varibles que puede escribir ejmplo (```cpp int``` numero)"){
 codigo...
   }
     
       
-#**ejemplo:**  
+# **ejemplo:**  
 ```cpp
 void saludar(String mensaje){// esturctura
 Serial.println(mensaje);// codigo
