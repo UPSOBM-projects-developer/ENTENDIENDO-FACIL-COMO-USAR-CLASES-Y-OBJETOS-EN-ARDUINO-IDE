@@ -1,5 +1,5 @@
 # ENTENDIENDO-FACIL-COMO-USAR-CLASES-Y-OBJETOS-EN-ARDUINO-IDE
-### en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando ```cpp void ,int,bool ```,etc.Para poder hacer nuestras propias librerias o simplificar codigo    
+### en esta clase aprenderemos a como hacer clases y objetos en arduino ide usando void,int,bool,etc.Para poder hacer nuestras propias librerias o simplificar codigo    
 
   
  ## * PROYECTO: CLASE POO (PROGRAMACIÓN ORIENTADA A OBJETOS)
@@ -10,14 +10,14 @@
    
 ## un objeto o definicion es como un "bloque"que tiene todo el codigo que le pongas para que al ponerlo se ejecute  
   # **su estructura es la siguiente :**   
-  ## ```cpp void,int,bool,String```,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
-  ## **entonces un ejemplo de la structura es** 
-  ### ```cpp void``` "nombre de el "bloque""("varibles que puede escribir ejmplo (```cpp int``` numero)"){
+  ## void,int,bool,String,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
+  ## entonces un ejemplo de la structura es
+  ### void "nombre de el "bloque""("varibles que puede escribir ejmplo (int numero)"){
 ### codigo...
  ### }
     
       
-# **ejemplo:**  
+# ejemplo:
 ```cpp
 void saludar(String mensaje){// esturctura
 Serial.println(mensaje);// codigo
@@ -38,7 +38,7 @@ delay(1000);// para evitar que el chip se esfuerze mucho ya que si quitas esto n
 }
 ```
  ## una funcion class es como una "caja" donde puede guardar cosas en este caso bloques de codigo que usaremos en nuestro codigo  
- # **ejemplo: ** 
+ #*ejemplo:  
   ```cpp
 class miled{//definimos la "caja"
 private://cosas que no salen de la "caja" en este ejemplo nada
@@ -64,12 +64,12 @@ void loop(){
 led.parpadear(500);// llamamos a la "caja" led y con . le sacamos su bloque parpadear
 }
   ```
- # ** su estructura es :**    
+ #  su estructura es :  
  
-  ```cpp class``` "nombre de la "caja"temporal"{
-```cpp private:``` // cosas que solo puede  funcionar aentro de la "caja"  
+  ``` class``` "nombre de la "caja"temporal"{
+``` private:``` // cosas que solo puede  funcionar aentro de la "caja"  
  y aqui podemos poner variables objetos o "bloques con codigo como lo mostre arriba en la primera"
-  ```cpp public:```// cosas que pueden usar afuera de la "caja"
+  ``` public:```// cosas que pueden usar afuera de la "caja"
   y aqui podemos poner variables objetos o "bloques con codigo como lo mostre arriba en la primera"
   
   };
