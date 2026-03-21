@@ -28,10 +28,13 @@ Serial.begin(9600);
 delay(1000);
 }
 void loop(){
-saludar("hola,funciono");// el nombre del "bloque"+ ()vaciono si no definiste que tuviera entrada de valor
+saludar("hola,funciono");// el nombre del "bloque"+ ()vacio si no definiste que tuviera entrada de valor
+
 // Y (y aqui escribes tu valor en este caso "hola,funciono")
+
 delay(1000);// para evitar que el chip se esfuerze mucho ya que si quitas esto no tiene descoaso y es malo
-//asi que es caso qe quitarlo por lo menos el chip tiene que descanzar 
+
+//asi que es caso de quitarlo por lo menos el chip tiene que descansar 
 }
 ```
  ## una funcion class es como una "caja" donde puede guardar cosas en este caso bloques de codigo que usaremos en nuestro codigo  
