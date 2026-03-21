@@ -6,7 +6,7 @@
 #include <Arduino.h>
   void saludar(String mensaje){
 Serial.println(mensaje);
-}
+} 
 class miled{
 private:
 
