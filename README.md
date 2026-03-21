@@ -13,8 +13,8 @@
   ## ```cpp void,int,bool,String```,etc.Osea el valor que quieres que retorne en forma que una variable de ese mismo tipo pueda obtenerla
   ## **entonces un ejemplo de la structura es** 
   ### ```cpp void``` "nombre de el "bloque""("varibles que puede escribir ejmplo (```cpp int``` numero)"){
-codigo...
-  }
+### codigo...
+ ### }
     
       
 # **ejemplo:**  
