@@ -3,6 +3,7 @@
  * DESARROLLADOR: UPSOBM_projects_developer
  * VERSIÓN: 1.0 (EDUCATIVA)
  */
+```cpp
 #include <Arduino.h>  
 
   void saludar(String mensaje){  
@@ -69,3 +70,4 @@ void loop(){
  * DESARROLLADOR: UPSOBM_projects_developer
  * VERSIÓN: 1.0 (EDUCATIVA)
  */
+```
